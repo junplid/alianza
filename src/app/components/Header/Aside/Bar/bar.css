@@ -1,0 +1,39 @@
+#bar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+#bar:hover .line {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  background-color: #636363;
+  transition: .2s ease;
+}
+
+.line {
+  width: 55px;
+  height: 4px;
+  background-color: #121212;
+  transition: .3s ease;
+}
+
+.line_2 {
+  opacity: 1;
+  transition: .1s ease !important;
+}
+
+.active_line_2 {
+  opacity: 0 !important;
+}
+
+.line_1 {
+  transform: rotate(0, 0);
+}
+.active_line_1 {
+  transform: rotate(36deg) translateY(15px) translateX(11px);
+}
+.active_line_3 {
+  transform: rotate(-39deg) translateY(-15px) translateX(12px);
+}
