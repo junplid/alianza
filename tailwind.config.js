@@ -10,7 +10,9 @@ module.exports = {
       'main': '#006CA8',
       'main-2': '#0F172A',
       'normal': '#283847',
-      'normal-b': "#0284C7"
+      'normal-2': '#334155',
+      'normal-b': "#0284C7",
+
     },
     backgroundColor: {
       'main': '#006CA8',
@@ -20,7 +22,8 @@ module.exports = {
       'link-hover': '#F8F8F8'
     },
     borderColor: {
-      "main": "#0C4A6E"
+      "main": "#0C4A6E",
+      'grey': '#A1A1A1',
     },
     boxShadow: {
       'main': '0 4px 24px rgba(0, 0, 0, 0.08)',
