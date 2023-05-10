@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { ComponentArticleIssues } from "./components/Articles/Issues";
-import { RiUser6Line } from "react-icons/ri";
-import { AiOutlineDatabase } from "react-icons/ai";
 
 export default function Home() {
   return (
