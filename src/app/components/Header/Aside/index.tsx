@@ -24,7 +24,7 @@ export function ComponentAsideHeader(): JSX.Element {
             <li>
               <Link
                 href={"/"}
-                className='text-lg duration-200 justify-start flex w-full py-5 px-6'
+                className='text-2xl duration-200 justify-start flex w-full py-5 px-6'
               >
                 Events and News
               </Link>
@@ -32,7 +32,7 @@ export function ComponentAsideHeader(): JSX.Element {
             <li>
               <Link
                 href={"/"}
-                className='text-lg duration-200 text-start flex justify-start w-full py-5 px-6'
+                className='text-2xl duration-200 text-start flex justify-start w-full py-5 px-6'
               >
                 Get Involved
               </Link>
@@ -40,7 +40,7 @@ export function ComponentAsideHeader(): JSX.Element {
             <li>
               <Link
                 href={"/"}
-                className='text-lg duration-200 text-start flex justify-start w-full py-5 px-6'
+                className='text-2xl duration-200 text-start flex justify-start w-full py-5 px-6'
               >
                 About Us
               </Link>
@@ -48,7 +48,7 @@ export function ComponentAsideHeader(): JSX.Element {
             <li>
               <Link
                 href={"/"}
-                className='text-lg duration-200 text-start flex justify-start w-full py-5 px-6'
+                className='text-2xl duration-200 text-start flex justify-start w-full py-5 px-6'
               >
                 Issues
               </Link>

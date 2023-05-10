@@ -1,4 +1,3 @@
-"use client";
 import "./style.css";
 import Link from "next/link";
 import { RiArrowDownSLine } from "react-icons/ri";
@@ -7,12 +6,12 @@ import { ComponentAsideHeader } from "./Aside";
 export function ComponentHeader(): JSX.Element {
   return (
     <div className='shadow-main px-3'>
-      <header className=' max-w-screen-2xl gap-x-9 m-auto h-28 flex items-center w-full justify-between'>
+      <header className='max-w-screen-2xl gap-x-4 m-auto h-28 flex items-center w-full justify-between'>
         <h1 className='uppercase text-5xl font-bold text-main'>alianza</h1>
         <nav className='hidden lg:visible w-full lg:flex justify-center'>
           <ul className='flex items-center w-full max-w-2xl justify-between'>
             <li>
-              <a className='duration-200 rounded-lg px-3 py-2 hover:bg-link-hover cursor-pointer items-center flex gap-x-1'>
+              <a className='text-xl duration-200 rounded-lg px-3 py-2 hover:bg-link-hover cursor-pointer items-center flex gap-x-1'>
                 <span>About Us</span>
                 <RiArrowDownSLine size={28} />
               </a>
@@ -20,7 +19,7 @@ export function ComponentHeader(): JSX.Element {
             <li>
               <Link
                 href={"/"}
-                className='duration-200 rounded-lg px-3 py-3 hover:bg-link-hover'
+                className='text-xl duration-200 rounded-lg px-3 py-3 hover:bg-link-hover'
               >
                 Events and News
               </Link>
@@ -28,13 +27,13 @@ export function ComponentHeader(): JSX.Element {
             <li>
               <Link
                 href={"/"}
-                className='duration-200 rounded-lg px-3 py-3 hover:bg-link-hover'
+                className='text-xl duration-200 rounded-lg px-3 py-3 hover:bg-link-hover'
               >
                 Get Involved
               </Link>
             </li>
             <li>
-              <a className='duration-200 rounded-lg px-3 py-2 hover:bg-link-hover cursor-pointer items-center flex gap-x-1'>
+              <a className='text-xl duration-200 rounded-lg px-3 py-2 hover:bg-link-hover cursor-pointer items-center flex gap-x-1'>
                 <span>Issues</span>
                 <RiArrowDownSLine size={28} />
               </a>

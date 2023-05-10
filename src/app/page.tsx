@@ -39,7 +39,7 @@ export default function Home() {
             <h2 className='text-center lg:text-left text-4xl font-semibold text-normal-2'>
               Who we are?
             </h2>
-            <p className='text-center lg:text-left leading-relaxed mt-3 text-normal text-xl'>
+            <p className='text-center font-normal lg:text-left leading-relaxed mt-3 text-normal  text-2xl'>
               We connect ideas and resources with other NGOs to build a better
               world for everyone.
             </p>
@@ -48,7 +48,7 @@ export default function Home() {
             <h2 className='text-center lg:text-left text-4xl font-semibold text-normal-2'>
               What we do?
             </h2>
-            <p className='text-center lg:text-left leading-relaxed mt-3 text-normal text-xl'>
+            <p className='text-center font-normal lg:text-left leading-relaxed mt-3 text-normal  text-2xl'>
               We protect and promote the protection of the planet and human
               dignity, we encourage awareness of the climate, the environment,
               data and technology, human rights, among other related issues.
@@ -58,7 +58,7 @@ export default function Home() {
             <h2 className='text-center lg:text-left text-4xl font-semibold text-normal-2'>
               Why we do it?
             </h2>
-            <p className='text-center lg:text-left leading-relaxed mt-3 text-normal text-xl'>
+            <p className='text-center font-normal lg:text-left leading-relaxed mt-3 text-normal  text-2xl'>
               NGOs have the reach and established strategies to collectively
               provide solutions to major social and cultural problems.
             </p>
