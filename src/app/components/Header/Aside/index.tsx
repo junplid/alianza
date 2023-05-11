@@ -23,7 +23,7 @@ export function ComponentAsideHeader(): JSX.Element {
           <ul className='py-3 flex flex-col w-full max-w-2xl justify-between'>
             <li>
               <Link
-                href={"/"}
+                href={"/events-news"}
                 className='text-2xl duration-200 justify-start flex w-full py-5 px-6'
               >
                 Events and News
