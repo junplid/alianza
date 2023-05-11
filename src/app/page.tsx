@@ -212,7 +212,7 @@ export default function Home() {
         <div className='max-w-none'>
           <Link
             href={"/events-news"}
-            className='hover:shadow-main-2 hover:bg-link-hover duration-200 h-12 border-2 border-solid border-main px-5 text-normal-b text-lg font-bold rounded-xl'
+            className='hover:shadow-main-2 hover:bg-link-hover duration-200 py-4 border-2 border-solid border-main px-5 text-normal-b text-lg font-bold rounded-xl'
           >
             Read all news
           </Link>
