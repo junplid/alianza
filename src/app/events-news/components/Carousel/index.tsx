@@ -40,7 +40,7 @@ export const ComponentCarousel = ({
     <Carousel
       className='z-10'
       partialVisible
-      transitionDuration={!isVisible ? 60 * 60 * 60 * 99 : 3000}
+      transitionDuration={!isVisible ? 60 * 60 * 60 * 99 : 3}
       infinite
       autoPlay
       arrows={false}
