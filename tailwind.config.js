@@ -10,11 +10,13 @@ module.exports = {
       screens: {
         'min830': '830px',
         'min400': '400px',
+        '3xl': '2000px'
       }
     },
     textColor: {
       'main': '#006CA8',
       'main-2': '#0F172A',
+      'main-3': '#FFCD42',
       'normal': '#283847',
       'normal-2': '#334155',
       'normal-b': "#0284C7",

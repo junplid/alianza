@@ -18,7 +18,7 @@ export function ComponentHeader(): JSX.Element {
             </li>
             <li>
               <Link
-                href={"/"}
+                href={"/events-news"}
                 className='text-xl duration-200 rounded-lg px-3 py-3 hover:bg-link-hover'
               >
                 Events and News

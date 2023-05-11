@@ -14,7 +14,7 @@ export function ComponentArticleLastNews(
   props: PropsArticleIssues_I,
 ): JSX.Element {
   return (
-    <Link href={props.link ?? "/"}>
+    <Link href={props.link ?? "/events-news"}>
       <article className='flex flex-col min830:flex-row hover:shadow-main-3 hover:-translate-y-1 duration-300 group hover:bg-main rounded-xl bg-grey-light'>
         <Image
           src={props.Image}

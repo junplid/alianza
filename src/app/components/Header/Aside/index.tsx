@@ -10,7 +10,7 @@ export function ComponentAsideHeader(): JSX.Element {
   const ref = useOnclickOutside(() => setActiveBar(false));
 
   return (
-    <div className='relative' ref={ref}>
+    <div className='relative' style={{ zIndex: 11 }} ref={ref}>
       <ComponentBarAside active={activeBar} onclick={setActiveBar} />
 
       <aside
