@@ -1,3 +1,4 @@
+import { ComponentFooter } from "./components/Footer";
 import { ComponentHeader } from "./components/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -24,6 +25,7 @@ export default function RootLayout({
         <div className={`${inter.className} font-medium`}>
           <ComponentHeader />
           {children}
+          <ComponentFooter />
         </div>
       </body>
     </html>
