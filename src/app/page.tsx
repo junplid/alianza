@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { ComponentArticleIssues } from "./components/Articles/Issues";
-import { RiUser6Line } from "react-icons/ri";
-import { AiOutlineDatabase } from "react-icons/ai";
+import LastImage1 from "../../public/last-news-1.jpg";
+import LastImage2 from "../../public/last-news-2.jpg";
+import { ComponentArticleLastNews } from "./components/Articles/LastNews";
 
 export default function Home() {
   return (
-    <main className='flex flex-col gap-y-16 pt-24 px-3 max-w-screen-2xl gap-x-9 m-auto'>
+    <main className='flex flex-col gap-y-16 pt-24 px-3 max-w-screen-2xl gap-x-12 m-auto'>
       <section className='md:grid flex flex-col-reverse md:grid-cols-[minmax(210px,380px)_1fr] lg:grid-cols-[minmax(390px,450px)_1fr] gap-x-7 items-center'>
         <div className='flex flex-col items-center md:block'>
           <h1 className='text-5xl text-center md:text-start mb-4 md:mb-6 sm:text-6xl lg:text-7xl text-main font-bold'>
@@ -68,17 +69,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='mb-96 flex flex-col gap-y-9'>
-        <h2 className='text-center font-bold text-5xl text-normal mb-6'>
-          Issues
-        </h2>
+      <section className='flex flex-col gap-y-9'>
+        <h2 className='text-center font-bold text-5xl text-normal'>Issues</h2>
         <p className='text-center font-normal text-2xl text-normal-2 leading-relaxed'>
           The social, cultural, technological and environmental problems in
           which we are committing ourselves every day to achieve better results
           and sustainable development that allows us to provide a better quality
           of life to thousands of communities around the world.
         </p>
-        <div className='grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] xl:grid-cols-4 gap-y-5 gap-x-5 mt-9'>
+        <div className='items-baseline place-items-baseline grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] xl:grid-cols-4 gap-y-5 gap-x-5 mt-9'>
           <ComponentArticleIssues
             Icon={
               <svg
@@ -188,6 +187,23 @@ export default function Home() {
             bgIcon='bg-main-3'
             pharagraph='We are working with the UN and its partners to collectively galvanize needed to address the climate challenge.'
             title='Climate and environment'
+          />
+        </div>
+      </section>
+      <section className='mb-96'>
+        <h2 className='text-center font-bold text-5xl text-normal mb-6'>
+          Last news
+        </h2>
+        <div className='mt-9 grid gap-y-5 grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-x-3 md:gap-x-5'>
+          <ComponentArticleLastNews
+            Image={LastImage2}
+            title="Women's human rights and gender equality"
+            pharagraph='When migrants are portrayed in a negative light, their human rights are heavily impacted. They are discriminated, excluded and dehumanised. Communities also become divided. How we speak about migrants and migration – the narrative – therefore'
+          />
+          <ComponentArticleLastNews
+            Image={LastImage1}
+            title="Women's human rights and gender equality"
+            pharagraph='Effectively ensuring that women, girls, men, boys and gender-diverse people can fully enjoy human rights requires, first, a comprehensive understanding of social structures, policies and stereotypes'
           />
         </div>
       </section>

@@ -6,6 +6,12 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    extend: {
+      screens: {
+        'min830': '830px',
+        'min400': '400px',
+      }
+    },
     textColor: {
       'main': '#006CA8',
       'main-2': '#0F172A',
