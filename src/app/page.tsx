@@ -207,6 +207,13 @@ export default function Home() {
           />
         </div>
       </section>
+      <div className='mt-14 w-full flex justify-center'>
+        <div className='max-w-none'>
+          <button className='hover:shadow-main-2 hover:bg-link-hover duration-200 h-12 border-2 border-solid border-main px-5 text-normal-b text-lg font-bold rounded-xl'>
+            Read all news
+          </button>
+        </div>
+      </div>
     </main>
   );
 }
