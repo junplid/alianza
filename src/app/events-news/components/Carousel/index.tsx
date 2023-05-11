@@ -1,9 +1,8 @@
 "use client";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { usePageVisibility } from "react-page-visibility";
-import Skeleton from "react-loading-skeleton";
 
 const responsive = {
   superLargeDesktop: {
