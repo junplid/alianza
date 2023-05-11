@@ -7,8 +7,8 @@ import { HiOutlineArrowCircleRight } from "react-icons/hi";
 
 export const ComponentArticleEventsNews: React.FC = (): JSX.Element => {
   return (
-    <article className='text-w relative max-w-xs'>
-      <Image src={Imagem1} height={395} width={308} alt='imagem' />
+    <article className='text-w relative max-w-md'>
+      <Image src={Imagem1} height={395 + 300} width={308 + 300} alt='imagem' />
       <div className='pt-3 px-5 md:pt-2 md:px-4 xl:pt-4 xl:px-8 absolute top-0 left-0'>
         <span className='text-shadow-1 text-lg uppercase'>june 5</span>
       </div>
