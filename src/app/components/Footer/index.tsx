@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function ComponentFooter(): JSX.Element {
   return (
-    <footer className='bg-main-body py-20 px-3 mt-20 text-w flex flex-col gap-y-10 items-center'>
+    <footer className=' bg-main-body py-20 px-3 mt-20 text-w flex flex-col gap-y-10 items-center'>
       <div className='w-full flex flex-col gap-y-7 items-center'>
         <h2 className='uppercase text-5xl font-bold'>alianza</h2>
         <p className='text-xl opacity-50'>Built with us a better world.</p>
