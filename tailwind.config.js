@@ -24,6 +24,10 @@ module.exports = {
       'w': "#fff",
       'main': '#006CA8',
     },
+    fill: {
+      'w': "#fff",
+      'main': '#FFCD42',
+    },
     backgroundColor: {
       'w': "#fff",
       'main': '#006CA8',
@@ -34,9 +38,11 @@ module.exports = {
       'grey-light': '#F3F4F6',
       'main-hover': '#009CEC',
       "main-strong": "#0C4A6E",
+      'main-body': '#0F172A',
     },
     borderColor: {
       "main": "#0C4A6E",
+      'main-3': "#38BDF8",
       'grey': '#A1A1A1',
     },
     boxShadow: {
