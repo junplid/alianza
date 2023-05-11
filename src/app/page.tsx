@@ -190,7 +190,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className='mb-96'>
+      <section>
         <h2 className='text-center font-bold text-5xl text-normal mb-6'>
           Last news
         </h2>
