@@ -21,6 +21,7 @@ module.exports = {
       'normal-2': '#334155',
       'normal-b': "#0284C7",
       'w': "#fff",
+      'event-news': '#2C2543'
     },
     stroke: {
       'w': "#fff",

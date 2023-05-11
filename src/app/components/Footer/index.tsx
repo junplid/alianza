@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export function ComponentFooter(): JSX.Element {
@@ -13,7 +12,7 @@ export function ComponentFooter(): JSX.Element {
           </button>
         </div>
         <nav className='max-w-4xl w-full'>
-          <ul className='flex flex-row flex-wrap w-full justify-between'>
+          <ul className='gap-x-2 flex flex-row flex-wrap w-full justify-between'>
             <li className='text-lg font-normal opacity-70 hover:opacity-100'>
               <Link href={"/"}>About Us</Link>
             </li>
