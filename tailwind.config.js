@@ -39,6 +39,7 @@ module.exports = {
       'main-2-hover': "#FFDA73",
       'link-hover': '#F8F8F8',
       'grey-light': '#F3F4F6',
+      'grey-super-light': '#FCFCFD',
       'main-hover': '#009CEC',
       "main-strong": "#0C4A6E",
       'main-body': '#0F172A',

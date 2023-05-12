@@ -2,13 +2,14 @@ import Image from "next/image";
 import { ComponentArticleIssues } from "./components/Articles/Issues";
 import LastImage1 from "../../public/last-news-1.jpg";
 import LastImage2 from "../../public/last-news-2.jpg";
+
 import { ComponentArticleLastNews } from "./components/Articles/LastNews";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className='flex flex-col gap-y-16 pt-16 px-3 max-w-screen-2xl gap-x-12 m-auto'>
-      <section className='md:grid flex flex-col-reverse md:grid-cols-[minmax(210px,380px)_1fr] lg:grid-cols-[minmax(390px,450px)_1fr] gap-x-7 items-center'>
+    <main className='relative flex flex-col gap-y-16 pt-16 px-3 max-w-screen-2xl gap-x-12 m-auto'>
+      <section className='bg-mainn md:grid flex flex-col-reverse md:grid-cols-[minmax(210px,380px)_1fr] lg:grid-cols-[minmax(390px,450px)_1fr] gap-x-7 items-center'>
         <div className='flex flex-col items-center md:block'>
           <h1 className='text-5xl text-center md:text-start mb-4 md:mb-6 sm:text-6xl lg:text-7xl text-main font-bold'>
             Built we us a better world
