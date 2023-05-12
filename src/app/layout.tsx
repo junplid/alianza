@@ -21,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='pt-br'>
-      <body className='min400:min-w-full' style={{ minWidth: 400 }}>
+      <body
+        className='bg-grey-super-light min400:min-w-full'
+        style={{ minWidth: 400 }}
+      >
         <div className={`${inter.className} font-medium`}>
           <ComponentHeader />
           {children}
