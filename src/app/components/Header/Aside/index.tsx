@@ -23,6 +23,9 @@ export function ComponentAsideHeader(): JSX.Element {
           <ul className='py-3 flex flex-col w-full max-w-2xl justify-between'>
             <li>
               <Link
+                onClick={() => {
+                  setTimeout(() => setActiveBar(false), 400);
+                }}
                 href={"/events-news"}
                 className='text-2xl duration-200 justify-start flex w-full py-5 px-6'
               >
@@ -31,6 +34,9 @@ export function ComponentAsideHeader(): JSX.Element {
             </li>
             <li>
               <Link
+                onClick={() => {
+                  setTimeout(() => setActiveBar(false), 400);
+                }}
                 href={"/"}
                 className='text-2xl duration-200 text-start flex justify-start w-full py-5 px-6'
               >
@@ -39,6 +45,9 @@ export function ComponentAsideHeader(): JSX.Element {
             </li>
             <li>
               <Link
+                onClick={() => {
+                  setTimeout(() => setActiveBar(false), 400);
+                }}
                 href={"/"}
                 className='text-2xl duration-200 text-start flex justify-start w-full py-5 px-6'
               >
@@ -47,6 +56,9 @@ export function ComponentAsideHeader(): JSX.Element {
             </li>
             <li>
               <Link
+                onClick={() => {
+                  setTimeout(() => setActiveBar(false), 400);
+                }}
                 href={"/"}
                 className='text-2xl duration-200 text-start flex justify-start w-full py-5 px-6'
               >
