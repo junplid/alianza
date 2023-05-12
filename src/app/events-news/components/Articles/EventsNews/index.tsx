@@ -17,7 +17,7 @@ export const ComponentArticleEventsNews: React.FC = (): JSX.Element => {
           href={"/"}
           className='group flex items-center justify-between gap-x-2'
         >
-          <span className='duration-200 group-hover:text-main-3 text-shadow-1 text-lg line-clamp-2'>
+          <span className='duration-200 group-hover:text-main-3 text-shadow-1 text-lg lg:text-2xl line-clamp-2'>
             Together we can take care of the planet
           </span>
           <HiOutlineArrowCircleRight

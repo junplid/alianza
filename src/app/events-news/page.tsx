@@ -3,6 +3,12 @@ import { ComponentArticleEventsNews } from "./components/Articles/EventsNews";
 import { ComponentCarousel } from "./components/Carousel";
 import ImagemMain from "../../../public/imagem-1-events-and-news.jpg";
 import Image from "next/image";
+import { ComponentArticleAllNews } from "./components/Articles/EventsAllNews";
+
+import Imagem1 from "../../../public/all-news-1.jpg";
+import Imagem2 from "../../../public/all-news-2.jpg";
+import Imagem3 from "../../../public/all-news-3.jpg";
+import Imagem4 from "../../../public/all-news-4.jpg";
 
 export default function EventsNewsPage(): JSX.Element {
   return (
@@ -57,6 +63,33 @@ export default function EventsNewsPage(): JSX.Element {
                 />
               </button>
             </div>
+          </div>
+        </div>
+        <div className='py-10'>
+          <h2 className='text-4xl md:text-5xl text-event-news mb-9'>
+            All news
+          </h2>
+          <div className='grid gap-y-6 gap-x-2 lg:gap-x-5 items-stretch grid-cols-[repeat(auto-fit,minmax(175px,1fr))]'>
+            <ComponentArticleAllNews
+              image={Imagem1}
+              title='107 technological initiatives of young Africans to fight against covid-19'
+              description='The pandemic in Africa has triggered the creativity of the new generations. The pan-African network of cyberactivist communities...'
+            />
+            <ComponentArticleAllNews
+              image={Imagem2}
+              title='Launch of the Spotlight Initiative'
+              description='Fourteen of the twenty-five countries with the highest rates of femicide in the world are in Latin America. '
+            />
+            <ComponentArticleAllNews
+              image={Imagem3}
+              title='15,000 nuclear weapons threaten us'
+              description='Peace and its threats, including nuclear, have once again been a leading issue today at our headquarters in New York, where the third day...'
+            />
+            <ComponentArticleAllNews
+              image={Imagem4}
+              title='37 million children displaced worldwide, the highest number on record'
+              description='In the world there are about 37 million children who are refugees, migrants or displaced within their own countries...'
+            />
           </div>
         </div>
       </main>

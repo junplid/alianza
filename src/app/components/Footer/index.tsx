@@ -96,6 +96,14 @@ export function ComponentFooter(): JSX.Element {
           </svg>
         </Link>
       </div>
+      <span>
+        Design by{" "}
+        <a href='https://www.figma.com/@maryarverbander'>Maryarver Bandera</a> |
+        Developed by{" "}
+        <a href='https://github.com/ousadojunplid' className='text-main-3'>
+          Rian Junplid
+        </a>
+      </span>
     </footer>
   );
 }
