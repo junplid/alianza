@@ -5,7 +5,7 @@ import { ComponentAsideHeader } from "./Aside";
 
 export function ComponentHeader(): JSX.Element {
   return (
-    <div className='shadow-main px-3 fixed z-50 bg-w w-full'>
+    <div className='shadow-main px-3 sticky top-0 z-50 bg-w w-full'>
       <header className='max-w-screen-2xl gap-x-4 m-auto h-28 flex items-center w-full justify-between'>
         <h1 className='uppercase text-5xl font-bold text-main'>alianza</h1>
         <nav className='hidden lg:visible w-full lg:flex justify-center'>

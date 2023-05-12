@@ -10,6 +10,13 @@ import Imagem2 from "../../../public/all-news-2.jpg";
 import Imagem3 from "../../../public/all-news-3.jpg";
 import Imagem4 from "../../../public/all-news-4.jpg";
 
+import ImagemC1 from "../../../public/events-and-news-1.png";
+import ImagemC2 from "../../../public/events-and-news-2.png";
+import ImagemC3 from "../../../public/events-and-news-3.png";
+import ImagemC4 from "../../../public/events-and-news-4.png";
+import ImagemC5 from "../../../public/events-and-news-5.png";
+import ImagemC6 from "../../../public/events-and-news-6.png";
+
 export default function EventsNewsPage(): JSX.Element {
   return (
     <div>
@@ -19,14 +26,30 @@ export default function EventsNewsPage(): JSX.Element {
         </h1>
         <div className='max-w-screen-3xl m-auto gap-x-4'>
           <ComponentCarousel>
-            <ComponentArticleEventsNews />
-            <ComponentArticleEventsNews />
-            <ComponentArticleEventsNews />
-            <ComponentArticleEventsNews />
-            <ComponentArticleEventsNews />
-            <ComponentArticleEventsNews />
-            <ComponentArticleEventsNews />
-            <ComponentArticleEventsNews />
+            <ComponentArticleEventsNews
+              text='Youth literacy in Africa'
+              image={ImagemC1}
+            />
+            <ComponentArticleEventsNews
+              text='Together we can take care of the planet'
+              image={ImagemC2}
+            />
+            <ComponentArticleEventsNews
+              text='Annual collective planning meeting'
+              image={ImagemC3}
+            />
+            <ComponentArticleEventsNews
+              text='Give smiles with your donation'
+              image={ImagemC4}
+            />
+            <ComponentArticleEventsNews
+              text='Conference on counterterrorism strategies'
+              image={ImagemC5}
+            />
+            <ComponentArticleEventsNews
+              text='Volunteer to take care of our planet'
+              image={ImagemC6}
+            />
           </ComponentCarousel>
         </div>
       </div>
