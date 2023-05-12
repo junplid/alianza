@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Alianza - Rian Junplid
 
-First, run the development server:
+Criei esse projeto mais na intenção de ter a primeira impressão com a nova versão `13.4` do [Next.js](https://nextjs.org/).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+O projeto se trata de um site comunitário de países ou povos em situação de extrema pobreza, ou catástrofes por ação da natureza, guerras, etc. Segui fielmente o design do figma por mais que das muitas vezes não tive como não fazer alterações no código porque os tamanhos e dimensões dos componentes do figma estavam desconexos com a realidade da tela, mas fora isso o site passa realmente a sensação e sentimento forte de humanidade e compaixão ao próximo.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Quero agradecer ao [imgbb](https://imgbb.com/) por disponibilizar a funcionalidade de fazer uploads de imagens em nuvem de graça, e também quero agradecer aos desenvolvedores do `next.js` que fizeram algo com extrema intensidade nessa ultima versão 13.4
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Demonstração](https://alianza-junplid-rian.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Design no Figma](https://www.figma.com/community/file/1120199047876576139/NOG-REDESIGN)
 
-## Learn More
+![imagem](https://i.ibb.co/PwVtgmP/1683859699180.png)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Roadmap
+Futuras funcionalidades para este projeto
 
-## Deploy on Vercel
+- [ ]  Alimentar o site com uma API de notícia
+- [ ]  Criar drop list da navegação do header
+- [ ]  Criar drop list no aside para mobile
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contribuindo
+
+#### Contribuições são sempre bem-vindas!
+Por favor, evite copiar o código direto. Faça o fork do projeto para o seu github
+
+
+## Stack utilizada
+
+**Front-end:** [Typescript](https://www.typescriptlang.org/), Next.js, [TailwindCSS](https://tailwindcss.com/), [React Icons](https://react-icons.github.io/react-icons/), [react-multi-carousel](https://www.npmjs.com/package/react-multi-carousel), [react-cool-onclickoutside](https://www.npmjs.com/package/react-cool-onclickoutside)
+
+
+## Autores
+
+- Desenvolvedor Frontend [@ousadojunplid](https://www.github.com/ousadojunplid)
+- Design Figma [@maryarvebandera ](https://www.figma.com/@maryarverbander)
+## Feedback
+
+Se você tiver algum feedback, abra uma discussão em [Issues](https://github.com/ousadojunplid/alianza/issues)
+
+
+## Licenças
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
